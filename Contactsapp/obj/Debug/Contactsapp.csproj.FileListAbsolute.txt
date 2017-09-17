@@ -1,9 +1,0 @@
-F:\Documents\GitHub\contactsappp\Contactsapp\Contactsapp\bin\Debug\Contactsapp.exe.config
-F:\Documents\GitHub\contactsappp\Contactsapp\Contactsapp\obj\Debug\Contactsapp.csprojResolveAssemblyReference.cache
-F:\Documents\GitHub\contactsappp\Contactsapp\Contactsapp\bin\Debug\Contactsapp.exe
-F:\Documents\GitHub\contactsappp\Contactsapp\Contactsapp\bin\Debug\Contactsapp.pdb
-F:\Documents\GitHub\contactsappp\Contactsapp\Contactsapp\obj\Debug\Contactsapp.exe
-F:\Documents\GitHub\contactsappp\Contactsapp\Contactsapp\obj\Debug\Contactsapp.pdb
-F:\Documents\GitHub\contactsapp\Contactsapp\Contactsapp\bin\Debug\Contactsapp.exe.config
-F:\Documents\GitHub\contactsapp\Contactsapp\Contactsapp\obj\Debug\Contactsapp.exe
-F:\Documents\GitHub\contactsapp\Contactsapp\Contactsapp\obj\Debug\Contactsapp.pdb
