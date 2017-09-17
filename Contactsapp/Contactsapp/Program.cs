@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
-namespace Contactsapp
+namespace ContactsApp
 {
     class Program
     {
         static void Main(string[] args)
         {
             List<Contact> danhba = new List<Contact>();
+
+            // doc du lieu tu file
+            if (File.Exists("contacts.txt"))
+                XuLyFile.LayDuLieuTuFile(danhba);
+
             char r;
             do
             {
@@ -35,11 +38,13 @@ namespace Contactsapp
             foreach (Contact c in danhba)
             {
                 Console.WriteLine("{0} - {1} - {2} - {3}",
-                                 c.Ho,
-                                 c.Ten,
-                                 c.DiaChi,
-                                 c.SDT);
+                                 c.GetHo(),
+                                 c.GetTen(),
+                                 c.GetDiaChi(),
+                                 c.GetSDT());
             }
+
+            XuLyFile.LuuDuLieuRaFile(danhba);
             Console.ReadLine();
         }
     }
